@@ -2,8 +2,8 @@ import { test, expect } from '@playwright/test';
 
 // go into parabank for each test cases. 
 /* Møter stadig på en error hvor passordet og brukernavet ikke er riktig
-selv om dette er det passordet jeg bruker laget flere kontoer og feilen skjer stadig
-har sjekket at alt fungerer. 
+selv om dette er det passordet og bruker er riktig, laget flere kontoer og feilen skjer stadig
+har sjekket at alt fungerer step by step med og lage ny konto for hver case når --debug kjører. 
  */
 
 test.beforeEach(async ({page}) => {
